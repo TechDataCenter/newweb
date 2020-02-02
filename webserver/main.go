@@ -14,3 +14,7 @@ func main() {
 	http.ListenAndServe(":8000",nil)
 }
 
+// 1. git pull
+// 2. git push -> git pull
+// 3. deploy
+
