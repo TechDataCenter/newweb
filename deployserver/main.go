@@ -25,3 +25,8 @@ func main() {
 	http.HandleFunc("/",firstPage)
 	http.ListenAndServe(":8080",nil)
 }
+
+// env GOOS=linux GOARCH=amd64 go build
+// cp newweb/deployserver/deployserver deployserver
+// cp newweb/deploy.sh deploy.sh
+
